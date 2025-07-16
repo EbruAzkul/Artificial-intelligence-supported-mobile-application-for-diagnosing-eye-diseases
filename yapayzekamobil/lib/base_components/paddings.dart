@@ -1,0 +1,47 @@
+import 'package:flutter/material.dart';
+
+class AppPaddings {
+  static const pagePadding = EdgeInsets.symmetric(horizontal: 16, vertical: 16);
+  static const pagePaddingNoTop = EdgeInsets.only(right: 16, left: 16, bottom: 16);
+  static const pagePaddingNoTopXLarge = EdgeInsets.only(right: 16, left: 16, bottom: 32);
+  static const pagePaddingNoBottom = EdgeInsets.only(top: 16, right: 16, left: 16);
+  static const pagePaddingLarge = EdgeInsets.symmetric(horizontal: 24, vertical: 24);
+  static const horizontalMediumVerticalLarge = EdgeInsets.symmetric(horizontal: 16, vertical: 32);
+  static const horizontalMediumVerticalSmall = EdgeInsets.symmetric(horizontal: 16, vertical: 8);
+  static const pageHorizontal = EdgeInsets.symmetric(horizontal: 16);
+  static const pageVertical = EdgeInsets.symmetric(vertical: 16);
+  static const horizontal = EdgeInsets.symmetric(horizontal: 16);
+  static const horizontalLarge = EdgeInsets.symmetric(horizontal: 32);
+  static const horizontalSmall = EdgeInsets.symmetric(horizontal: 8);
+  static const horizontalXSmall = EdgeInsets.symmetric(horizontal: 6);
+  static const horizontal2XSmall = EdgeInsets.symmetric(horizontal: 4);
+  static const vertical2XSmall = EdgeInsets.symmetric(vertical: 4);
+  static const verticalSmall = EdgeInsets.symmetric(vertical: 8);
+  static const vertical12 = EdgeInsets.symmetric(vertical: 12);
+  static const vertical = EdgeInsets.symmetric(vertical: 16);
+  static const verticalLarge = EdgeInsets.symmetric(vertical: 32);
+  static const componentPadding = EdgeInsets.all(16);
+  static const componentPadding12 = EdgeInsets.all(12);
+  static const componentPaddingSmall = EdgeInsets.all(8);
+  static const componentPadding2XSmall = EdgeInsets.all(4);
+  static const componentPadding3XSmall = EdgeInsets.all(2);
+  static const onlyTopPadding = EdgeInsets.only(top: 16);
+  static const onlyTopPaddingSmall = EdgeInsets.only(top: 8);
+  static const onlyTopPadding2XLarge = EdgeInsets.only(top: 64);
+  static const onlyRightPaddingXSmall = EdgeInsets.only(right: 6);
+  static const onlyRightPadding2XSmall = EdgeInsets.only(right: 4);
+  static const onlyRightPaddingSmall = EdgeInsets.only(right: 8);
+  static const onlyRightPadding = EdgeInsets.only(right: 16);
+  static const onlyLeftPadding2XSmall = EdgeInsets.only(left: 4);
+  static const onlyLeftPaddingXSmall = EdgeInsets.only(left: 6);
+  static const onlyLeftPaddingSmall = EdgeInsets.only(left: 8);
+  static const onlyLeftPadding12 = EdgeInsets.only(left: 12);
+  static const onlyLeftPadding = EdgeInsets.only(left: 16);
+  static const onlyBottomPaddingXSmall = EdgeInsets.only(bottom: 6);
+  static const onlyBottomPadding2XSmall = EdgeInsets.only(bottom: 4);
+  static const onlyBottomPaddingSmall = EdgeInsets.only(bottom: 8);
+  static const onlyBottomPadding = EdgeInsets.only(bottom: 16);
+  static const onlyBottomPaddingLarge = EdgeInsets.only(bottom: 24);
+  static const onlyTopPadding12 = EdgeInsets.only(top: 12);
+  static const zero = EdgeInsets.zero;
+}

@@ -1,0 +1,31 @@
+Base components hakıındaki Notlar ve Açıklamalar:
+lib -> base_components
+
+1 - border_radius dosyasında proje içerisinde kullanacağımız genel BorderRadius değerlerimiz var
+    Örnek Kullanım:
+    Container(
+        decoration: BoxDecoration(
+            borderRadius: AppBorderRadius.radius16
+        ),
+    )
+2 - colors dosyasında proje içerisinde kullanacağımız genel Color değerlerimiz var
+    Örnek Kullanım:
+    Container(
+        decoration: BoxDecoration(
+            color: AppColors.redMiddle
+        ),
+    )
+3 - icons dosyasında proje içerisinde kullanacağımız genel Icon'larımız var
+    Örneğin Kullanım:
+    SvgPicture.asset(AppIcons.notStock)
+
+4 - paddings dosyasında proje içerisinde kullanacağımız genel Padding değerlerimiz var
+    Örnek Kullanım:
+    Padding(
+        padding: AppPaddings.componentPaddingSmall,
+        child: Text("Example", style: poppins.w700.f21.white,),
+    ),
+5 - text_styles dosyasında proje içerisinde kullanacağımız text style özelliklerimizi dinamik olarak yönettik
+    font family, font size, font weight ve color bilgileri dinamik olarak kullanılabiliyor
+    Örnek Kullanım:
+    Text("Example", style: poppins.w700.f21.white,)
